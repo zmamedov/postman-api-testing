@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This project provides an automated testing solution for the [JSON Placeholder](https://typicode.com) REST API service.
+This project provides an automated testing solution for the [JSON Placeholder](https://jsonplaceholder.typicode.com) REST API service.
 
 **Project Goal:** To demonstrate advanced proficiency in REST API testing.
 
