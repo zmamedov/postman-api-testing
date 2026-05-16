@@ -63,13 +63,13 @@ The project is structured into logical layers following the test pyramid princip
 
   16. Get posts by invalid query parameter
 
-  17. OST request with malformed JSON syntax
+  17. POST request with malformed JSON syntax
 
-  18. OST request with an empty JSON body
+  18. POST request with an empty JSON body
 
 ### E2E scenario
 
-* Post Lifecycle Management (Sequential workflow)
+  19. Post Lifecycle Management (Sequential workflow)
 
 </details>
 
