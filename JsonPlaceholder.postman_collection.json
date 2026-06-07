@@ -424,11 +424,11 @@
               "listen": "prerequest",
               "script": {
                 "exec": [
-                  "// Генерируем случайное число для уникальности заголовка\r",
+                  "// Generate random title and body\r",
                   "const postTitle = pm.variables.replaceIn('{{$randomJobTitle}}');\r",
                   "const postBody = pm.variables.replaceIn('{{$randomWords}} {{$randomWords}}');\r",
                   "\r",
-                  "// Сохраняем в переменные, чтобы использовать в Body и потом в Tests\r",
+                  "// Save in vaiables\r",
                   "pm.variables.set(\"req_title\", postTitle);\r",
                   "pm.variables.set(\"req_body\", postBody);\r",
                   "pm.variables.set(\"req_userId\", 1);\r",
@@ -456,7 +456,7 @@
                   "    pm.expect(jsonData.body).to.eql(pm.variables.get(\"req_body\"));\r",
                   "    pm.expect(jsonData.userId).to.eql(pm.variables.get(\"req_userId\"));\r",
                   "    \r",
-                  "    // Check that is number and not Null\r",
+                  "    // Check that ID is number and not Null\r",
                   "    pm.expect(jsonData.id).to.be.a('number').and.to.exist;\r",
                   "});\r",
                   "\r",
