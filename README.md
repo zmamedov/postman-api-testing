@@ -80,7 +80,7 @@ The project is structured into logical layers following the test pyramid princip
 * **Teardown & Cleanup:** Automated environment variable cleanup after E2E scenario completion to maintain workspace hygiene.
 * **Environmental Variables:** Centralized configuration for Base URL, global headers and timeout thresholds via Environment variables.
 
-## 5. How to Run
+## 5. How to run
 
 1. Clone the repository.
 2. Import `JsonPlaceholder.postman_collection.json` and `JSONPlaceholder-Test.postman_environment.json` into Postman.
