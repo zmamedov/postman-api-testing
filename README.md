@@ -1,6 +1,6 @@
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
-
 # API Testing Framework (Postman & JavaScript)
+
+![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 
 ## 1. Introduction
 
